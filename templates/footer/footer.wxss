@@ -1,0 +1,6 @@
+.page__ft{
+  text-align: center;
+}
+.page__ft text{
+  font-size:30rpx; 
+}

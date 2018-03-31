@@ -1,0 +1,44 @@
+<import src="../../templates/footer/footer.wxml" />
+<view class="page">
+  <view class='page__hd'>
+    <view class='collect weui-flex' wx:for="{{collect}}" wx:key="item">
+      <view class='collect-image'>
+        <image src='../../images/mycollect/collection.png'></image>
+      </view>
+      <view class='collect-content weui-flex__item'>
+        <view class='content'>
+          <text class='content-item'>名称:</text>
+          <text>\t\t{{item.title}}</text>
+        </view>
+        <view class='content'>
+          <text class='content-item'>约换时间:</text>
+          <text>\t\t{{item.publicationDate}}</text>
+        </view>
+        <view class='content'>
+          <text class='content-item'>约换地点:</text>
+          <text>\t\t{{item.uploadReason}}</text>
+        </view>
+        <view class='content'>
+          <text class='content-item'>起止时间:</text>
+          <text>\t\t{{item.lendingReasons}}</text>
+        </view>
+        <view class='content'>
+          <text class='content-item'>借阅人姓名:</text>
+          <text>\t\t{{item.uploadMan}}</text>
+        </view>
+        <view class='content'>
+          <text class='content-item'>手机号码:</text>
+          <text>\t\t{{item.uploadMan}}</text>
+        </view>
+        <view class='collect-btn'> 
+          <button size='mini' class='success'>未借阅</button>
+          <button class="weui-btn mini-btn"  disabled="true" type="default"  size='mini'>已借阅</button>
+        </view>
+      </view>
+    </view>
+
+  </view>
+  <view class='page__bd'></view>
+ <template is="footer"></template>
+</view>
+

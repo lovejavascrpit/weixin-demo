@@ -1,0 +1,5 @@
+<template name="footer">
+ <view class='page__ft'>
+  <text>~~~没有更多啦~~~</text>
+  </view>
+</template>

@@ -1,0 +1,36 @@
+@import "../../templates/footer/footer.wxss";
+page{
+  background: #EEEEEE;
+}
+.weui-flex{
+  padding: 50rpx;
+  padding-bottom: 30rpx; 
+}
+.weui-flex__item text{
+  font-size: 30rpx;
+  font-family: "宋体";
+}
+.collect-image{
+  margin-right:50rpx; 
+}
+.collect-image image{
+  height: 300rpx;
+  width: 200rpx;
+}
+.collectImg{
+  height: 50rpx;
+  width:50rpx;
+  float: right;
+}
+.collect{
+  box-shadow: 0px 2px 2px #888888;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.collect-btn{
+  float: right;
+}
+.collect-btn .success{
+background: #45A79A;
+color: #fff;
+}

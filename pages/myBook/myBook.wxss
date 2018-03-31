@@ -1,0 +1,21 @@
+.weui-grids{
+  border: 0rpx;
+  margin-top: 30rpx;
+}
+.weui-grid{
+  border: 0rpx;
+  padding: 0rpx;
+  margin: 0rpx;
+}
+.weui-grid__icon{
+  height: 200rpx;
+  width: 200rpx;
+}
+
+.page__ft image{
+  position: fixed;
+  bottom:30rpx;
+  right: 30rpx;
+  width: 75rpx;
+  height: 75rpx;
+}

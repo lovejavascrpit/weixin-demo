@@ -1,0 +1,48 @@
+.page__hd image{
+  height: 400rpx;
+  width: 100%;
+} 
+page{
+  background: #F0EFF4;
+}
+.cell{
+  background: #fff;
+}
+.cell .pull-left{
+  float: left;
+}
+.cell .pull-right{
+  float: right;
+}
+.cell .pull-left text{
+  font-size: 25rpx;
+  margin-left: 30rpx;  
+}
+.cell .pull-left .title{
+  margin-top:30rpx;
+   font-size:25rpx;
+ font-weight: bolder;
+display: block;
+}
+.cell .pull-right image{
+  margin-top:35rpx;
+  margin-right: 50rpx;
+  height: 50rpx;
+  width: 50rpx;
+}
+.cell .center{
+  text-align: center;
+}
+.cell .center image{
+  margin-top:35rpx;
+  width: 90%;
+}
+.footer{
+  text-align: right;
+}
+.footer button{
+  background: #428478;
+  color: #fff;
+  border-radius: 10%;
+  margin-right:50rpx; 
+}

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/active/active",
+    "pages/user/user",
+    "pages/activeItem/activeItem",
+    "pages/myBook/myBook",
+    "pages/myActive/myActive",
+    "pages/uploadBook/uploadBook",
+    "pages/uploadCode/uploadCode",
+    "pages/myMoney/myMoney",
+    "pages/myCollect/myCollect",
+    "pages/myReady/myReady",
+    "pages/myCode/myCode",
+    "pages/bookItem/bookItem"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#428478",
+    "navigationBarTitleText": "信大书城",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "borderStyle": "#fff",
+    "color": "#fff",
+    "selectedColor": "#000",
+    "backgroundColor": "#428478",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabber/s-book.png",
+        "selectedIconPath": "images/tabber/uns-book.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/active/active",
+        "iconPath": "images/tabber/uns-activity.png",
+        "selectedIconPath": "images/tabber/s-activity.png",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/tabber/uns-user.png",
+        "selectedIconPath": "images/tabber/s-user.png",
+        "text": "个人信息"
+      }
+    ]
+  }
+}

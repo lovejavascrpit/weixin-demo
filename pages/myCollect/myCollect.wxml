@@ -1,0 +1,43 @@
+<import src="../../templates/footer/footer.wxml" />
+<view class="page">
+  <view class='page__hd'>
+    <view class='collect weui-flex' wx:for="{{collect}}" wx:key="item">
+      <view class='collect-image'>
+        <image src='../../images/mycollect/collection.png'></image>
+      </view>
+      <view class='collect-content weui-flex__item'>
+        <view class='title'>
+          <text class='title'>{{item.title}}</text>
+          <image class='collectImg' src='../../images/mycollect/collection.png'></image>
+        </view>
+        <view class='content'>
+          <text>作者:</text>
+          <text>\t\t{{item.title}}</text>
+        </view>
+        <view class='content'>
+          <text>出版时间:</text>
+          <text>\t\t{{item.publicationDate}}</text>
+        </view>
+        <view class='content'>
+          <text>上传理由:</text>
+          <text>\t\t{{item.uploadReason}}</text>
+        </view>
+        <view class='content'>
+          <text>借阅要求:</text>
+          <text>\t\t{{item.lendingReasons}}</text>
+        </view>
+        <view class='content'>
+          <text>上传者:</text>
+          <text>\t\t{{item.uploadMan}}</text>
+        </view>
+        <view class='collect-btn'>
+          <button size='mini' class='success'>联系书友</button>
+          <button class="weui-btn mini-btn" size='mini' bindtap='collectCancel'>删除</button>
+        </view>
+      </view>
+    </view>
+
+  </view>
+  <view class='page__bd'></view>
+ <template is="footer"></template>
+</view>

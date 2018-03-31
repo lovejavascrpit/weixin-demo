@@ -1,0 +1,63 @@
+.weui-flex {
+  padding: 30rpx;
+}
+
+.collect-content {
+  margin-top: 30rpx;
+}
+
+.content text {
+  color: #458278;
+}
+.weui-navbar__slider{
+  border-color: #458278;
+}
+.weui-flex__item .text .text {
+  margin-bottom: 10rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+  font-family: "宋体";
+}
+
+.line-one {
+  margin-top: 10rpx;
+  height: 0rpx;
+  width: 95%;
+  border-top: 0.1px solid #458278;
+  background: #458278;
+  margin-left: 2.5%;
+}
+.weui-navbar__slider{
+  background: #458278;
+  border-color:#458278; 
+}
+.weui-navbar__title{
+  font-size: 35rpx;
+}
+.weui-navbar{
+  border: 0px;
+}
+.collect-image {
+  margin-right: 50rpx;
+}
+
+.collect-image image {
+  height: 300rpx;
+  width: 200rpx;
+}
+
+.collectImg {
+  height: 50rpx;
+  width: 50rpx;
+  float: right;
+}
+
+.collect {
+  background: #fff;
+  border-bottom: 1px solid #458278;
+}
+
+.collect-btn {
+  float: right;
+}
+

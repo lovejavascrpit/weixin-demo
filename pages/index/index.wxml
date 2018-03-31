@@ -1,0 +1,50 @@
+<import src="../../templates/search/search.wxml" />
+<import src="../../templates/banner/banner.wxml" />
+<view class='page'>
+  <view class='page__hd'>
+    <template is="search" data="{{...searchItems}}" />
+  </view>
+  <view class='page__bd'>
+    <view class='search-before-case' wx:if="{{!searchItems.inputShowed}}">
+      <swiper indicator-dots="{{indicatorDots}}" class='swiper-box' autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}" wx:key="{{...imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" />
+          </swiper-item>
+        </block>
+      </swiper>
+      <template is="banner" data="{{...bookItem}}" />
+    </view>
+    <view class='search-case' wx:if="{{searchItems.inputShowed&&!inputVal}}">
+      <view class='searchItems hod-search'>
+        <text class='title'>热门搜索</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+      </view>
+      <view class='searchItems history-search'>
+        <text class='title'>历史搜索</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+        <text class='item'>百鬼夜行</text>
+      </view>
+    </view>
+    <view class='search-after-case' wx:if="{{searchItems.inputShowed&&inputVal}}"> 
+      <template is="banner" data="{{...bookItem}}" />
+    </view>
+    <view class='search-no-case' wx:if="{{false}}">
+      <text>抱歉，没有搜索到相关内容</text> 
+      <image class="fail-image" src="../../images/index/fail-search.png" />
+    </view>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+.weui-cell__hd image{
+  display: block;
+  height: 50rpx;
+  width: 50rpx;
+}
+.page__hd{
+  background: #428478;
+  text-align: center;
+  justify-content: center;
+  padding-bottom:70rpx; 
+}
+.page__hd image{
+  height: 300rpx;
+  width: 300rpx;
+  border-radius: 50%;
+}
+.page__hd text{
+  display: block;
+  color: #fff;
+  font-size:30rpx; 
+}

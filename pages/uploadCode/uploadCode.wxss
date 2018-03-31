@@ -1,0 +1,21 @@
+@import "../../templates/form/form.wxss";
+.page__hd{
+  margin-top: 100rpx;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;  
+}
+.imageUpload{
+  display: flex;  
+  flex-direction: row;
+  background: #E5E5E5;
+  height: 250rpx;
+  width: 200rpx;
+  justify-content: center;
+  align-items: center;
+}
+.imageUpload image{
+  height: 250rpx;
+  width: 200rpx;
+}

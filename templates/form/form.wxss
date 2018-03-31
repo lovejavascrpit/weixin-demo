@@ -1,0 +1,29 @@
+.form{
+  margin-top:50rpx; 
+}
+.weui-flex .label {
+  width: 200rpx;
+  text-align: right;
+}
+.weui-flex .label text{
+  color: #7A7A7A;
+  font-size: 30rpx;
+  font-family: "宋体";
+}
+.weui-flex .weui-flex-item input{
+  width: 450rpx;
+  color: #7A7A7A;
+  font-size: 30rpx;
+  font-family: "宋体";
+  margin-left: 15rpx;
+  background: #E5E5E5;
+  margin-bottom: 20rpx;
+}
+.weui-flex .weui-flex-item textarea{
+  color: #7A7A7A;
+  font-size: 30rpx;
+  font-family: "宋体";
+  margin-left: 15rpx;
+  background: #E5E5E5;
+  width: 450rpx;
+}

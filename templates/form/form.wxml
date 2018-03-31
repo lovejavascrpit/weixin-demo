@@ -1,0 +1,54 @@
+<template name="form">
+  <view class='form'>
+    <form>
+      <view class='weui-flex'>
+        <view class='label'>
+          <text>书名:</text>
+        </view>
+        <view class='weui-flex-item'>
+          <input type='text' />
+        </view>
+      </view>
+      <view class='weui-flex'>
+        <view class='label'>
+          <text>作者:</text>
+        </view>
+        <view class='weui-flex-item'>
+          <input type='text' />
+        </view>
+      </view>
+      <view class='weui-flex'>
+        <view class='label'>
+          <text>出版社:</text>
+        </view>
+        <view class='weui-flex-item'>
+          <input type='text' />
+        </view>
+      </view>
+      <view class='weui-flex'>
+        <view class='label'>
+          <text>出版时间:</text>
+        </view>
+        <view class='weui-flex-item'>
+          <input type='text' />
+        </view>
+      </view>
+      <view class='weui-flex'>
+        <view class='label'>
+          <text>上传理由:</text>
+        </view>
+        <view class='weui-flex-item'>
+          <input type='text' />
+        </view>
+      </view>
+      <view class='weui-flex'>
+        <view class='label'>
+          <text>借阅要求:</text>
+        </view>
+        <view class='weui-flex-item'>
+          <textarea maxlength="100"></textarea>
+        </view>
+      </view>
+    </form>
+  </view>
+</template>

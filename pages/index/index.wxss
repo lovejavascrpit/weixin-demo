@@ -1,0 +1,57 @@
+@import "../../templates/search/search.wxss";
+page{
+  background: #F0EFF4;
+}
+.weui-search-bar{
+  background: #F0EFF4;
+}
+.slide-image{
+  width: 100%;
+  height: 420rpx;
+}
+.swiper-box .wx-swiper-dots.wx-swiper-dots-horizontal{
+     margin-bottom: 2rpx;
+}
+.swiper-box .wx-swiper-dot{
+    width:20rpx;
+    display: inline-flex;
+    height: 20rpx;
+    margin-left: 20rpx;
+    border-radius: 50%;
+    justify-content:space-between;
+}
+.swiper-box .wx-swiper-dot::before{
+    content: '';
+    flex-grow: 1; 
+    background: rgba(255,255,255,0.8);
+    border-radius: 8rpx
+}
+.swiper-box .wx-swiper-dot-active::before{
+    background:#428478;   
+}
+.searchItems{
+  margin-top: 10rpx;
+  margin-left:10rpx;
+}
+.searchItems .title{
+  margin-top: 10rpx;
+  color: #428478; 
+  font-size: 30rpx;
+  font-weight: bolder;
+  display:inline-flex;
+  display:block;
+  
+}
+.searchItems .item{
+  color: #428478;
+  font-size: 25rpx;
+  margin-left: 50rpx;
+}
+.search-no-case{
+  padding-top: 150rpx;
+  text-align: center
+}
+.search-no-case text{
+  color: #428478; 
+  font-size: 35rpx;
+}

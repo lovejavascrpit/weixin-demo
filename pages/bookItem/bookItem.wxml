@@ -1,0 +1,37 @@
+<import src="../../templates/footer/footer.wxml" />
+<view class="page">
+  <view class='page__hd'>
+    <view class='collect weui-flex' wx:for="{{collect}}" wx:key="item">
+      <view class='collect-image'>
+        <image src='../../images/mycollect/collection.png'></image>
+      </view>
+      <view class='collect-content weui-flex__item'>
+        <view class='title'>
+          <text class='title'>{{item.title}}</text>
+          <image class='collectImg' src='../../images/mycollect/collection.png'></image>
+        </view>
+        <view class='line-one'></view>
+        <view class='content'>
+          <text class='content'>xxx</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='page__bd'>
+   <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for="{{tabs}}" wx:key="*this">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">选项一的内容</view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">选项二的内容</view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 2}}">选项三的内容</view>
+            </view>
+        </view>
+  </view>
+</view>

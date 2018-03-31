@@ -1,0 +1,22 @@
+page{
+  background: #49A596;
+}
+.page{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page__bd{
+margin-top: 50rpx;
+width: 90%; 
+background: #fff;
+}
+
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    padding-top: 60px;
+    text-align: center;
+}

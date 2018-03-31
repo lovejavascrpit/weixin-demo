@@ -1,0 +1,38 @@
+<import src="../../templates/footer/footer.wxml" />
+<view class="page">
+  <view class='page__hd'></view>
+  <view class='page__bd'>
+    <view class='active'>
+      <view class='active-title'>
+        <text class='title'>
+            活动名称
+          </text>
+      </view>
+      <view class='line-one'></view>
+      <view class='line-two'></view>
+      <view class='active-items'>
+        <view class='active-item'>
+          <text class='title'>时间:</text>
+          <text class='content'>xxxxx</text>
+        </view>
+        <view class='active-item'>
+          <text class='title'>地点:</text>
+          <text class='content'>xxxxx</text>
+        </view>
+        <view class='active-item'>
+          <text class='title'>主办方:</text>
+          <text class='content'>xxxxx</text>
+        </view>
+        <view class='active-item'>
+          <text class='title'>活动介绍:</text>
+          <text class='content'>xxxxx</text>
+        </view>
+      </view>
+      <view class='active-button'>
+      <button  size="mini" class='true'>已报名</button>
+      <button  size="mini" class='false' bindtap='cancel'>取消报名</button>
+      </view>
+    </view>
+  </view>
+ <template is="footer"></template>
+</view>
